@@ -9,7 +9,7 @@
 runtime syntax/ruby.vim
 
 syntax case match
-syntax keyword gemfileKeywords        source gem gemspec git path group platforms
+syntax keyword gemfileKeywords        source ruby gem gemspec git path group platforms
 syntax match gemfileGemOptions        /:require\|:group\|:groups\|:platforms\|:git\|:path/
 syntax match gemfileGemspecOptions    /:path\|:name\|:development_group/
 syntax match gemfileGitOptions        /:branch\|:tag\|:ref\|:submodules/
